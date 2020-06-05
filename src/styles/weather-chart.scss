@@ -1,0 +1,21 @@
+.WeatherChart {
+  &__y-values {
+    width: 20px;
+  }
+
+  &__y-point {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  &__hour-temp-container,
+  &__x-values {
+    width: max-content;
+  }
+
+  &__hour-temp,
+  &__x-point {
+    width: 100px;
+    font-size: 10px;
+  }
+}
