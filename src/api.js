@@ -10,4 +10,5 @@ const API =  axios.create({
     baseURL: 'http://api.openweathermap.org/data/2.5',
     paramsSerializer: (params) => queryString.stringify({...paramsDefaults, ...params})
 });
+
 export default API;
