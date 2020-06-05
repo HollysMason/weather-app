@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {getHourlyWeather} from "../actions/houtlyWeatherActions";
+import {getHourlyWeather} from "../actions/hourlyWeatherActions";
 import {range, formattUnixTime} from "../utils/common";
 import {Spinner} from "../components/Spinner";
 
